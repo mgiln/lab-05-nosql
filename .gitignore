@@ -24,3 +24,4 @@ Thumbs.db
 # Environment / secrets (never commit these)
 .env
 .env.*
+.venv-windows/

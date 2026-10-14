@@ -1,0 +1,17 @@
+[project]
+name = "nosql-lab"
+version = "0.1.0"
+description = "NoSQL work for DS2022"
+readme = "README.md"
+authors = [
+    { name = "mgilin", email = "szj5dq@virginia.edu" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+nosql-lab = "nosql_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
